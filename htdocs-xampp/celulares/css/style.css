@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+@font-face {
+    font-family: 'OleoScript';
+    src: url('../fonts/OleoScriptSwashCaps-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Fig';
+    src: url('../fonts/Figtree-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: 'Fira';
+    src: url('../fonts/FiraSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Open';
+    src: url('../fonts/OpenSans-VariableFont_wdth,wght.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.banner-text{
+    font-family: 'OleoScript';
+}

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+@font-face {
+    font-family: 'OleoScript';
+    src: url('../fonts/OleoScriptSwashCaps-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Fig';
+    src: url('../fonts/Figtree-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: 'Fira';
+    src: url('../fonts/FiraSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Open';
+    src: url('../fonts/OpenSans-VariableFont_wdth,wght.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Abel', sans-serif;
+}
+
+.banner{
+    width: 100%;
+    /* height: 600px; */
+    height: 100vh;
+    background: #c2e59c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(56, 90%, 28%, 0.795), hsla(244, 54%, 23%, 0.801)), url(../img/bk.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,  hsla(56, 90%, 28%, 0.795), hsla(244, 54%, 23%, 0.801)), url(../img/bk.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.banner2{
+    width: 100%;
+    /* height: 600px; */
+    height: 100vh;
+    background: #373a33;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(56, 90%, 28%, 0.795), hsla(244, 54%, 23%, 0.801)), url(../img/bk.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,  hsla(56, 90%, 28%, 0.795), hsla(244, 54%, 23%, 0.801)), url(../img/bk.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: contain;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.banner-heading{
+    margin-top: 150px;
+}
+
+
+
+
+.blog .blog-img{
+    background-image: url(../img/covid.jpg);
+    width: 50%;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+}
+
+.blog .blog-img2{
+    background-image: url(../img/clinica.jpg);
+    width: 50%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+.p-text{
+    text-align: justify;
+}
+
+
