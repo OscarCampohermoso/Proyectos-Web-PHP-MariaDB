@@ -16,4 +16,4 @@ Este repositorio contiene varios proyectos web desarrollados utilizando PHP y Ma
 
 ## Licencia
 
-Este proyecto está licenciado bajo la Licencia MIT. Por favor revisa el archivo `LICENSE`[[LICENSE.md]] para más información.
+Este proyecto está licenciado bajo la Licencia MIT. Por favor revisa el archivo [`LICENSE.md`](LICENSE.md) para más información.
